@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScratchFile FileVersion="3.0">
+  <FileVersion>3.0</FileVersion>
+  <Workspace>
+    <WorkspaceType>Single-project</WorkspaceType>
+    <WorkspacePath>C:\temp\STM32F4-FreeRTOS-RNDIS\</WorkspacePath>
+    <underRoot>true</underRoot>
+    <TrustZone>0</TrustZone>
+    <HAL_Driver>C:\Embedded\stm32\stm32cube\STM32Cube_FW_F4_V1.26.2</HAL_Driver>
+    <CMSIS>Drivers/CMSIS</CMSIS>
+    <Toolchain>STM32CubeIDE</Toolchain>
+    <IocFile>STM32F4-USB.ioc</IocFile>
+    <Project>
+      <ProjectName>STM32F4-USB</ProjectName>
+      <ProjectNature>C</ProjectNature>
+      <Secure />
+      <filestoremove>
+        <file>
+          <name>usb_device.h</name>
+        </file>
+        <file>
+          <name>usbd_conf.h</name>
+        </file>
+        <file>
+          <name>usbd_desc.h</name>
+        </file>
+        <file>
+          <name>usbd_cdc_if.h</name>
+        </file>
+        <file>
+          <name>stm32f4xx_it.h</name>
+        </file>
+        <file>
+          <name>stm32f4xx_hal_conf.h</name>
+        </file>
+        <file>
+          <name>main.h</name>
+        </file>
+        <file>
+          <name>FreeRTOSConfig.h</name>
+        </file>
+        <file>
+          <name>Src\stm32f4xx_hal_timebase_tim.c</name>
+        </file>
+        <file>
+          <name>Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c.c</name>
+        </file>
+        <file>
+          <name>Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c_ex.c</name>
+        </file>
+        <file>
+          <name>Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2s.c</name>
+        </file>
+        <file>
+          <name>Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2s_ex.c</name>
+        </file>
+        <file>
+          <name>Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.c</name>
+        </file>
+        <file>
+          <name>Core\Src\main.c</name>
+        </file>
+        <file>
+          <name>Core\Src\freertos.c</name>
+        </file>
+        <file>
+          <name>USB_DEVICE\App\usb_device.c</name>
+        </file>
+        <file>
+          <name>USB_DEVICE\Target\usbd_conf.c</name>
+        </file>
+        <file>
+          <name>USB_DEVICE\App\usbd_desc.c</name>
+        </file>
+        <file>
+          <name>USB_DEVICE\App\usbd_cdc_if.c</name>
+        </file>
+        <file>
+          <name>Core\Src\stm32f4xx_it.c</name>
+        </file>
+        <file>
+          <name>Core\Src\stm32f4xx_hal_msp.c</name>
+        </file>
+        <file>
+          <name>Core\Src\stm32f4xx_hal_timebase_tim.c</name>
+        </file>
+        <file>
+          <name>Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_crc.c</name>
+        </file>
+        <file>
+          <name>Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma2d.c</name>
+        </file>
+        <file>
+          <name>Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_fmc.c</name>
+        </file>
+        <file>
+          <name>Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_sdram.c</name>
+        </file>
+        <file>
+          <name>Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_ltdc.c</name>
+        </file>
+        <file>
+          <name>Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_ltdc_ex.c</name>
+        </file>
+        <file>
+          <name>Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dsi.c</name>
+        </file>
+        <file>
+          <name>Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c</name>
+        </file>
+        <file>
+          <name>Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.c</name>
+        </file>
+        <file>
+          <name>Core\Src\system_stm32f4xx.c</name>
+        </file>
+      </filestoremove>
+      <sourceEntriesToRemove>
+        <sourceEntry />
+      </sourceEntriesToRemove>
+      <configs>
+        <config>
+          <name>STM32F4-USB</name>
+          <mainSourceRepo>Src</mainSourceRepo>
+          <sourceStructure>Basic</sourceStructure>
+          <device>STM32F407VGTx</device>
+          <cpucore>Arm Cortex-M4</cpucore>
+          <fpu>SP</fpu>
+          <memories>
+            <memory access="xrw" name="RAM" size="128" start="0x20000000" />
+            <memory access="xrw" name="CCMRAM" size="64" start="0x10000000" />
+            <memory access="rx" name="FLASH" size="1024" start="0x8000000" />
+          </memories>
+          <startup>C:\Embedded\stm32\stm32cube\STM32Cube_FW_F4_V1.26.2\Drivers\CMSIS\Device\ST\STM32F4xx\Source\Templates\gcc\startup_stm32f407xx.s</startup>
+          <LinkSettings>
+            <LinkAdditionalLibs />
+          </LinkSettings>
+          <heapSize>0x200</heapSize>
+          <stackSize>0x400</stackSize>
+          <board>STM32F4DISCOVERY</board>
+          <debugprobe>swd</debugprobe>
+          <optimization />
+          <Aincludes>
+            <include />
+          </Aincludes>
+          <Adefines />
+          <Cdefines>
+            <define>USE_HAL_DRIVER</define>
+            <define>STM32F407xx</define>
+          </Cdefines>
+          <Ldefines />
+          <Cincludes>
+            <include>Inc</include>
+            <include>Drivers\STM32F4xx_HAL_Driver\Inc</include>
+            <include>Drivers\STM32F4xx_HAL_Driver\Inc\Legacy</include>
+            <include>Middlewares\Third_Party\FreeRTOS\Source\include</include>
+            <include>Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS_V2</include>
+            <include>Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F</include>
+            <include>Middlewares\ST\STM32_USB_Device_Library\Core\Inc</include>
+            <include>Middlewares\ST\STM32_USB_Device_Library\Class\CDC\Inc</include>
+            <include>Drivers\CMSIS\Device\ST\STM32F4xx\Include</include>
+            <include>Drivers\CMSIS\Include</include>
+          </Cincludes>
+          <definestoremove>
+            <Adefines />
+            <Cdefines>
+              <define>USE_FULL_LL_DRIVER</define>
+              <define>MBEDTLS_CONFIG_FILE="mbedtls_config.h"</define>
+            </Cdefines>
+            <Ldefines />
+          </definestoremove>
+          <inctoremove>
+            <Aincludes>
+              <include />
+            </Aincludes>
+            <Cincludes />
+          </inctoremove>
+        </config>
+      </configs>
+      <copyAsReference>false</copyAsReference>
+      <sourceEntries>
+        <sourceEntry>
+          <name>Src</name>
+        </sourceEntry>
+        <sourceEntry>
+          <name>Drivers</name>
+        </sourceEntry>
+        <sourceEntry>
+          <name>Middlewares</name>
+        </sourceEntry>
+      </sourceEntries>
+      <Groups />
+    </Project>
+  </Workspace>
+</ScratchFile>
+
