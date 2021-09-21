@@ -1,3 +1,3 @@
 [submodule "Middlewares/LRSTM32F4"]
 	path = Middlewares/LRSTM32F4
-	url = git@github.com:luizrenault/LRSTM32F4.git
+	url = git@github.com:icis4/LRSTM32F4.git
